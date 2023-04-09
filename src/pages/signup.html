@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>sign-up page</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="login.css" />
+  <link rel="stylesheet" type="text/css" href="styles-common.css" />
+</head>
+<body>
+  <!-- <script src="src/login.js"></script> -->
+  <form action="" method="post">
+    <ul>
+      <li id="first_block">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+      </li>
+      <li>
+        <label for="first_name">Name:</label>
+        <input type="text" id="first_name" name="first_name" />
+      </li>
+      <li>
+        <label for="second_name">Surname:</label>
+        <input type="text" id="second_name" name="second_name" />
+      </li>
+      <li>
+        <label for="phone">Telephone number:</label>
+        <input type="tel" id="phone" name="phone" />
+      </li>
+      <li id="second_block">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="user_password" />
+      </li>
+      <li>
+        <label for="password_repeat">Repeat password:</label>
+        <input type="password" id="password_repeat" name="user_password_repeat" />
+      </li>
+      <li class="button-group">
+        <button type="submit" class="accent">Submit</button>
+        <a id="signin" href="/login">Sign in</a>
+      </li>
+    </ul>
+  </form>
+</body>
+</html>
