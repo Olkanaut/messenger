@@ -29,6 +29,7 @@
 
 .chat-body {
     padding: 12px;
+    overflow: scroll;
 }
 
 .chat-container {

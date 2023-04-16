@@ -1,0 +1,25 @@
+<div class="messages-page">
+  <div class="chats-list-column">
+    {{> InputSearch }}
+
+    <div class="chats-list-block">
+      {{#each chats}}
+        <li>
+          {{> ChatListItem}}
+        </li>
+      {{/each}}
+    </div>
+
+    <a href="/profile" class="profile-info-block">
+      <img class="profile-info-block__avatar avatar-circle-small"/>
+      <div class="profile-info-block__display_name">{{profileInfo.displayName}}</div>
+    </a>
+  </div>
+
+
+  <div class="chat-column">
+    {{> ChatHeader}}
+    {{> ChatBody}}
+    {{> ChatFooter}}
+  </div>
+</div>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body, button {
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+}
+
+.settings-form, .login-form {
+    width: 410px;
+    margin: 4em auto;
+    padding: 3em 1em;
+    border-radius: 1em;
+    background-color: #ffffff;
+}
+
+form ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+form li {
+  display: flex;
+  align-items: center;
+}
+
+label {
+    width: 90px;
+    margin-right: 1em;
+    display: inline-block;
+    text-align: right;
+}
+
+input {
+    width: 280px;
+    height: 24px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: 1em sans-serif;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    height: 34px;
+    margin: 0 1em;
+    padding: 4px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.accent {
+    background-color: #d4482c;
+}
+
+.accent:hover {
+    background-color: #c23d23;
+}
+
+.error-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+}
