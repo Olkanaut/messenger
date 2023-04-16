@@ -1,7 +1,6 @@
 dist/
 node_modules/
 .parcel-cache
-src/images
 archive/
 
 logs

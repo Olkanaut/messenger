@@ -1,0 +1,11 @@
+<form class="chat-footer">
+  <div class="chat-footer__input-group">
+    <input class="chat-footer__message-input" name="message" placeholder="type message"/>
+    <div class="chat-footer__input-group__button-row">
+        {{#each actionsObject}}
+            <button id="{{@key}}" onclick="{{this.action}}">{{this.displayName}}</button>
+        {{/each}}
+    </div>
+  </div>
+  <button>send</button>
+</form>

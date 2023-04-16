@@ -1,0 +1,18 @@
+.nav-panel {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    padding: 18px 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    a:visited {
+        color: #c23d23;
+    }
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}

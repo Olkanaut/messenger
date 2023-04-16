@@ -1,0 +1,13 @@
+<form class="login-form" action="" method="post">
+  <ul>
+    {{#each fields}}
+      <li class="{{this.field}}">
+        {{> InputField }}
+      </li>
+    {{/each}}
+  </ul>
+  <li class="button-group">
+    {{> LinkButton href='/messages' displayName='Sign in' type="submit" isAccent="accent"}}
+    {{> LinkButton href='/signup' displayName='Sign up'}}
+  </li>
+</form>

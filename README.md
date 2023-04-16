@@ -1,10 +1,18 @@
-# messenger
+# OLLO messenger
 
-node index.js
+## Run
+Run project: `npm run start`
+Build project: `npm run build`
+Remove dependencies and dist folder: `fclean`
 
-navigate views using `sign in`, `sign up`, `profile editing` (avatar) buttons
+Project runs locally on port 3000
 
-routes available:
+## Test prototype
+Test on netlify: `https://bespoke-sfogliatella-de9903.netlify.app/`
+
+Navigate views using `Sign in / Sign up / Save`, `pencil buttons` or a temporarily visible navigation panel
+
+Routes available:
 /                           login page
 /signup                     registration page
 /messages                   chats and messages view
